@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUDARSHANODAYA AUTOMOBILES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="SUDARSHANODAYA AUTOMOBILES">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="i.html" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="product.html">products</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <section id="home" class="hero">
+        <video autoplay muted loop>
+            <source src="background-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <h1>Welcome to SUDARSHANODAYA AUTOMOBILES</h1>
+            <p>Your trusted partner for all JCB and tractor parts.</p>
+            <a href="#services" class="btn">Explore Our Services</a>
+        </div>
+    </section>
+    <section id="welcome" class="welcome-section">
+        <div class="welcome-container">
+            <!-- Left Image with Overlay -->
+            <div class="welcome-image-container">
+                <img src="/photo/bg3.webp" alt="Sudarshanodaya Automobiles">
+                <div class="image-overlay"></div>
+            </div>
+            <!-- Right Content -->
+            <div class="welcome-content">
+                <h2> Sudarshanodaya Automobiles</h2>
+                <p>
+                    At Sudarshanodaya Automobiles, we are dedicated to providing exceptional 
+                    services for all your automotive needs. Whether it’s maintenance, repairs, 
+                    or enhancements, our team of experts ensures your vehicle performs at its best.
+                </p>
+                <p>
+                    Experience unparalleled quality and customer care with Sudarshanodaya Automobiles. 
+                    Your satisfaction is our priority.
+                </p>
+                <a href="#services" class="btn-primary">Explore Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products-section">
+        <h2>Our Machine Parts</h2>
+        <div class="filter-container">
+            <label for="price-filter">Filter by Price:</label>
+            <select id="price-filter">
+                <option value="all">All</option>
+                <option value="1000-5000">₹1000 - ₹5000</option>
+                <option value="5001-10000">₹5001 - ₹10000</option>
+                <option value="10001-20000">₹10001 - ₹20000</option>
+            </select>
+        </div>
+        <div class="product-cards-container">
+            <!-- Product Card 1 -->
+            <div class="product-card" data-price="5000" data-company="JCB">
+                <img src="/photo/pump jcb.webp" alt="JCB Spare Parts">
+                <div class="overlay">
+                    <h3>JCB Hydraulic Pump</h3>
+                    <p>Company: JCB</p>
+                    <p>Price: ₹5000</p>
+                    <p>Machine Part: Hydraulic Pump</p>
+                </div>
+            </div>
+    
+            <!-- Product Card 2 -->
+            <div class="product-card" data-price="7000" data-company="Swaraj">
+                <img src="/photo/swaraj-logo-present-scaled.webp" alt="Swaraj Engine Block">
+                <div class="overlay">
+                    <h3>Swaraj Engine Block</h3>
+                    <p>Company: Swaraj</p>
+                    <p>Price: ₹7000</p>
+                    <p>Machine Part: Engine Block</p>
+                </div>
+            </div>
+    
+            <!-- Product Card 3 -->
+            <div class="product-card" data-price="12000" data-company="Castrol">
+                <img src="images/castrol_oil.jpg" alt="Castrol Engine Oil">
+                <div class="overlay">
+                    <h3>Castrol Engine Oil</h3>
+                    <p>Company: Castrol</p>
+                    <p>Price: ₹12000</p>
+                    <p>Machine Part: Engine Oil</p>
+                </div>
+            </div>
+    
+            <!-- Product Card 4 -->
+            <div class="product-card" data-price="9000" data-company="Escorts">
+                <img src="images/escorts_part.jpg" alt="Escorts Fuel Pump">
+                <div class="overlay">
+                    <h3>Escorts Fuel Pump</h3>
+                    <p>Company: Escorts</p>
+                    <p>Price: ₹9000</p>
+                    <p>Machine Part: Fuel Pump</p>
+                </div>
+            </div>
+    
+            <!-- Add more product cards as needed -->
+        </div>
+    </section>
+    
+    
+   
+    
+        
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Auto Repairs</h3>
+                    <p>Comprehensive repair services for all automobile parts.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Maintenance</h3>
+                    <p>Regular servicing to keep your machinery in top shape.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Parts Delivery</h3>
+                    <p>Reliable and quick delivery of spare parts.</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="testimonials" class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <p>"Excellent service and top-quality parts! Highly recommend."</p>
+                    <h4>- Rajesh K.</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Prompt delivery and professional staff. A pleasure to work with."</p>
+                    <h4>- Sneha M.</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Reliable and trustworthy! My go-to for JCB and tractor parts."</p>
+                    <h4>- Arvind P.</h4>
+                </div>
+            </div>
+        </section>
+    
+        <section id="certifications" class="certifications-section">
+            <h2>Our Certifications</h2>
+            <p class="cert-description">
+                We are proud to be certified and associated with leading brands in the industry, 
+                showcasing our commitment to quality and excellence.
+            </p>
+            <div class="cert-logo-container">
+                <div class="cert-logo">
+                    <img src="/photo/jcb.webp" alt="JCB">
+                </div>
+                <div class="cert-logo">
+                    <img src="/photo/swaraj-logo-present-scaled.webp" alt="Swaraj">
+                </div>
+                <div class="cert-logo">
+                    <img src="/photo/castrol.webp" alt="Castrol">
+                </div>
+                <div class="cert-logo">
+                    <img src="/photo/640px-Escorts_Group.svg.webp" alt="Escorts">
+                </div>
+                <div class="cert-logo">
+                    <img src="/photo/TVS_Motor_Company-Logo.wine.webp" alt="TVS">
+                </div>
+                <div class="cert-logo">
+                    <img src="/photo/total-logo-1.webp" alt="Total">
+                </div>
+            </div>
+        </section>
+        
+    
+    <footer class="main-footer">
+        <p>&copy; 2025 SUDARSHANODAYA AUTOMOBILES. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
